@@ -52,13 +52,11 @@ export default function Hero() {
             <div className="mt-8 sm:mt-12 flex items-center gap-4 sm:gap-6 border-t border-slate-100 pt-6 sm:pt-8">
               <div className="flex -space-x-2 sm:-space-x-3" aria-hidden="true">
                 {[
-                  'bg-gradient-to-br from-accent/40 to-primary/30',
-                  'bg-gradient-to-br from-primary/30 to-accent/40',
-                  'bg-gradient-to-br from-accent/50 to-primary/20',
-                ].map((bg, i) => (
-                  <div key={i} className={`w-9 h-9 sm:w-12 sm:h-12 rounded-full border-3 sm:border-4 border-white ${bg} flex items-center justify-center`}>
-                    <span className="text-white text-[10px] sm:text-xs font-bold">{['FS','AK','MR'][i]}</span>
-                  </div>
+                  '/images/p1.webp',
+                  '/images/p2.jpg',
+                  '/images/p3.jpg',
+                ].map((src, i) => (
+                  <img key={i} src={src} alt="" className="w-9 h-9 sm:w-12 sm:h-12 rounded-full border-3 sm:border-4 border-white object-cover" />
                 ))}
               </div>
               <div>
