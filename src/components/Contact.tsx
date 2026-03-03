@@ -22,7 +22,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-primary text-lg">Location</p>
-                  <p className="text-slate-600">Main Gulberg Road, Lahore, Pakistan</p>
+                  <p className="text-slate-600">120/A, Commercial Area Sector C Bahria Town, Lahore, 53720</p>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ export default function Contact() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="My Dental Home - Gulberg, Lahore"
+              title="My Dental Home - Bahria Town, Lahore"
               className="absolute inset-0 w-full h-full"
             />
           </div>

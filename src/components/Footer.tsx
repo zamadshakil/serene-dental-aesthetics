@@ -77,7 +77,7 @@ export default function Footer() {
             © {new Date().getFullYear()} My Dental Home by Dr. Faraz Sadiq. All rights reserved.
           </p>
           <div className="flex gap-6 text-slate-400 text-sm font-medium">
-            <span>Gulberg, Lahore</span>
+            <span>Bahria Town, Lahore</span>
             <a href="tel:03278149889" className="hover:text-primary transition-colors">0327 8149889</a>
           </div>
         </div>

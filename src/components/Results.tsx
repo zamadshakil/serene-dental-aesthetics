@@ -5,20 +5,17 @@ const transformations = [
   {
     title: 'Full Mouth Reconstruction',
     subtitle: 'Complete cosmetic smile makeover',
-    gradient: 'from-accent/30 via-primary/60 to-bg-dark',
-    icon: '🦷',
+    image: '/images/FullMouthRestorationResized.jpg',
   },
   {
     title: 'Porcelain Veneers',
     subtitle: 'Natural looking aesthetic enhancement',
-    gradient: 'from-primary/40 via-accent/40 to-primary/80',
-    icon: '✨',
+    image: '/images/Porcelain Veneers.webp',
   },
   {
     title: 'Invisalign Treatment',
     subtitle: 'Discreet orthodontic straightening',
-    gradient: 'from-bg-dark via-primary/70 to-accent/30',
-    icon: '😁',
+    image: '/images/Invisalign Treatment.jpg',
   },
 ]
 
@@ -71,22 +68,12 @@ export default function Results() {
               transition={{ duration: 0.5, delay: index * 0.15 }}
               className="relative group aspect-[4/5] rounded-3xl overflow-hidden cursor-pointer"
             >
-              {/* Gradient background instead of image */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${item.gradient}`} />
-              
-              {/* Pattern overlay for depth */}
-              <div className="absolute inset-0 opacity-10" style={{
-                backgroundImage: `radial-gradient(circle at 20% 50%, rgba(197, 160, 89, 0.3) 0%, transparent 50%),
-                                  radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 40%)`
-              }} />
-
-              {/* Center icon */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <span className="text-6xl mb-4 opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300">{item.icon}</span>
-                <div className="text-center px-6">
-                  <p className="text-white/40 text-sm font-semibold uppercase tracking-widest">Before & After</p>
-                </div>
-              </div>
+              {/* Result image */}
+              <img
+                src={item.image}
+                alt={item.title}
+                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
 
               {/* Hover overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">

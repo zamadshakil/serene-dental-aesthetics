@@ -5,7 +5,7 @@ import Services from './components/Services'
 import Results from './components/Results'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import FloatingWidget from './components/FloatingWidget'
+
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
       <Results />
       <Contact />
       <Footer />
-      <FloatingWidget />
     </div>
   )
 }

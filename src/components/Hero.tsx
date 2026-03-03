@@ -82,9 +82,18 @@ export default function Hero() {
             <div className="absolute -bottom-12 -left-12 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5]">
-              {/* Premium gradient visual instead of image */}
-              <div className="w-full h-full bg-gradient-to-br from-primary via-primary/90 to-bg-dark flex flex-col items-center justify-center p-10 text-center">
-                <div className="w-24 h-24 rounded-full bg-accent/20 flex items-center justify-center mb-8 border border-accent/30">
+              {/* Background image */}
+              <img
+                src="/images/Dr. Faraz Sadiq.png"
+                alt="Dr. Faraz Sadiq at My Dental Home"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              {/* Dark blur overlay for text readability */}
+              <div className="absolute inset-0 bg-primary/70 backdrop-blur-sm" />
+
+              {/* Text content on top */}
+              <div className="relative w-full h-full flex flex-col items-center justify-center p-10 text-center z-10">
+                <div className="w-24 h-24 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center mb-8 border border-accent/30">
                   <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#c5a059" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M12 5.5C10.5 4 7.5 4 6 5.5S4 9 5.5 10.5L12 17l6.5-6.5C20 9 20 7 18 5.5S13.5 4 12 5.5z" />
                     <line x1="12" y1="17" x2="12" y2="22" />
@@ -93,13 +102,13 @@ export default function Hero() {
                 <h3 className="text-white text-2xl font-black tracking-tight mb-2">MY DENTAL HOME</h3>
                 <p className="text-accent text-sm font-semibold tracking-widest uppercase mb-6">Premium Care</p>
                 <div className="w-16 h-px bg-accent/40 mb-6" />
-                <p className="text-white/60 text-sm max-w-xs">State-of-the-art technology combined with personalized care in a serene environment</p>
+                <p className="text-white/80 text-sm max-w-xs">State-of-the-art technology combined with personalized care in a serene environment</p>
               </div>
 
               {/* Glass overlay at bottom */}
               <div className="absolute bottom-6 left-6 right-6 glass-effect p-6 rounded-2xl border border-white/20">
                 <p className="text-primary font-bold">Premium Clinic Facility</p>
-                <p className="text-slate-600 text-sm">Gulberg, Lahore, Pakistan</p>
+                <p className="text-slate-600 text-sm">120/A, Commercial Area Sector C, Bahria Town, Lahore</p>
               </div>
             </div>
           </motion.div>

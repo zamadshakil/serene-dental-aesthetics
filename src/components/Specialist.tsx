@@ -22,9 +22,13 @@ export default function Specialist() {
             <div className="relative group">
               <div className="absolute inset-0 gold-gradient rounded-[2rem] rotate-3 scale-105 opacity-20 group-hover:rotate-6 transition-transform duration-500" />
               <div className="relative aspect-square rounded-[2rem] overflow-hidden bg-primary flex flex-col items-center justify-center text-center p-8">
-                {/* Premium visual instead of photo */}
-                <div className="w-32 h-32 rounded-full bg-accent/15 border-2 border-accent/30 flex items-center justify-center mb-6">
-                  <span className="text-accent text-5xl font-black">FS</span>
+                {/* Doctor photo in circle */}
+                <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-accent/30 mb-6">
+                  <img
+                    src="/images/Dr. Faraz Sadiq.png"
+                    alt="Dr. Faraz Sadiq - Lead Specialist & Founder"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-white text-3xl font-black mb-2">Dr. Faraz Sadiq</h3>
                 <p className="text-accent font-semibold tracking-widest uppercase text-sm mb-4">Lead Specialist & Founder</p>
