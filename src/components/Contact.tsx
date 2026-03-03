@@ -49,30 +49,18 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Map placeholder */}
-          <div className="lg:w-1/2 h-[400px] lg:h-auto relative bg-slate-100 overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 flex flex-col items-center justify-center text-center p-8">
-              <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <MapPin size={32} className="text-primary" />
-              </div>
-              <h4 className="text-primary font-bold text-lg mb-1">Gulberg, Lahore</h4>
-              <p className="text-slate-500 text-sm mb-6">Pakistan</p>
-              <a
-                href="https://www.google.com/maps/search/Gulberg+Lahore+Pakistan"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-bold text-accent hover:underline"
-              >
-                Open in Google Maps →
-              </a>
-            </div>
-            {/* Grid pattern overlay */}
-            <div
-              className="absolute inset-0 opacity-[0.03]"
-              style={{
-                backgroundImage: `linear-gradient(#002d5b 1px, transparent 1px), linear-gradient(90deg, #002d5b 1px, transparent 1px)`,
-                backgroundSize: '40px 40px',
-              }}
+          {/* Embedded Google Map */}
+          <div className="lg:w-1/2 h-[400px] lg:h-auto relative bg-slate-100 overflow-hidden min-h-[400px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.5!2d74.35!3d31.52!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20d5cdac0a14256c!2sMy%20Dental%20Home%20by%20Dr.Faraz%20Sadiq!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="My Dental Home - Gulberg, Lahore"
+              className="absolute inset-0 w-full h-full"
             />
           </div>
         </motion.div>
