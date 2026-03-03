@@ -37,7 +37,7 @@ function HomePage() {
 
 function App() {
   return (
-    <div className="bg-bg-light text-slate-900 font-display antialiased">
+    <div className="bg-bg-light text-slate-900 font-display antialiased overflow-x-hidden">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
