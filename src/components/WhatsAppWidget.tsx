@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 export default function WhatsAppWidget() {
   return (
     <motion.a
-      href="https://wa.me/923330737363?text=Hi%2C%20I%27d%20like%20to%20book%20an%20appointment%20at%20Serene%20Dental%20Aesthetics."
+      href="https://wa.me/923302737363?text=Hi%2C%20I%27d%20like%20to%20book%20an%20appointment%20at%20Serene%20Dental%20Aesthetics."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"
