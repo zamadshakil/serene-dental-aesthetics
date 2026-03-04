@@ -26,10 +26,10 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-primary mb-4">1. Introduction</h2>
             <p className="text-slate-600 leading-relaxed">
-              Welcome to My Dental Home ("we," "our," or "us"), operated by Dr. Faraz Sadiq. We are committed
+              Welcome to Serene Dental Aesthetics ("we," "our," or "us"). We are committed
               to protecting your personal information and your right to privacy. This Privacy Policy explains
               how we collect, use, disclose, and safeguard your information when you visit our website or avail
-              our dental services at our clinic located at 120/A, Commercial Area Sector C, Bahria Town, Lahore, 53720.
+              our dental services at our clinic located at Falcon Down Town CS-38, Phase 1 Fazaia Housing Society, Lahore.
             </p>
           </section>
 
@@ -162,9 +162,9 @@ export default function PrivacyPolicy() {
               please contact us:
             </p>
             <div className="bg-bg-light rounded-2xl p-6 space-y-2">
-              <p className="font-bold text-primary">My Dental Home by Dr. Faraz Sadiq</p>
-              <p className="text-slate-600">120/A, Commercial Area Sector C, Bahria Town, Lahore, 53720</p>
-              <p className="text-slate-600">Phone: <a href="tel:03278149889" className="text-accent hover:underline">0327 8149889</a></p>
+              <p className="font-bold text-primary">Serene Dental Aesthetics</p>
+              <p className="text-slate-600">Falcon Down Town CS-38, Phase 1 Fazaia Housing Society, Lahore</p>
+              <p className="text-slate-600">Phone: <a href="tel:03302737363" className="text-accent hover:underline">0330 2737363</a></p>
             </div>
           </section>
 

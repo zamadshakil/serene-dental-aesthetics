@@ -26,8 +26,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-primary mb-4">1. Acceptance of Terms</h2>
             <p className="text-slate-600 leading-relaxed">
-              By accessing or using the website of My Dental Home ("we," "our," or "us"), operated by
-              Dr. Faraz Sadiq, you agree to be bound by these Terms of Service. If you do not agree to
+              By accessing or using the website of Serene Dental Aesthetics ("we," "our," or "us"), you agree to be bound by these Terms of Service. If you do not agree to
               these terms, please do not use our website or services. These terms apply to all visitors,
               patients, and users of our website and dental services.
             </p>
@@ -36,7 +35,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-primary mb-4">2. Our Services</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              My Dental Home provides professional dental care services including, but not limited to:
+              Serene Dental Aesthetics provides professional dental care services including, but not limited to:
             </p>
             <ul className="list-disc list-inside text-slate-600 space-y-2">
               <li>General and preventive dentistry (scaling, polishing, fillings)</li>
@@ -48,15 +47,15 @@ export default function TermsOfService() {
               <li>Digital smile design and treatment planning</li>
             </ul>
             <p className="text-slate-600 leading-relaxed mt-4">
-              All services are provided at our clinic located at 120/A, Commercial Area Sector C, Bahria Town,
-              Lahore, 53720, Pakistan.
+              All services are provided at our clinic located at Falcon Down Town CS-38, Phase 1 Fazaia Housing Society,
+              Lahore, Pakistan.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-primary mb-4">3. Appointments & Scheduling</h2>
             <ul className="list-disc list-inside text-slate-600 space-y-2">
-              <li>Appointments can be scheduled by calling us at <a href="tel:03278149889" className="text-accent hover:underline">0327 8149889</a> or visiting our clinic</li>
+              <li>Appointments can be scheduled by calling us at <a href="tel:03302737363" className="text-accent hover:underline">0330 2737363</a> or visiting our clinic</li>
               <li>We kindly request at least 24 hours' notice for cancellations or rescheduling</li>
               <li>Walk-in patients are welcome but may be subject to availability</li>
               <li>Emergency dental appointments are accommodated whenever possible</li>
@@ -128,8 +127,8 @@ export default function TermsOfService() {
             <h2 className="text-2xl font-bold text-primary mb-4">9. Intellectual Property</h2>
             <p className="text-slate-600 leading-relaxed">
               All content on this website — including text, images, logos, graphics, and design — is the
-              property of My Dental Home and is protected by applicable intellectual property laws. The
-              "My Dental Home" name, logo, and branding are our trademarks. Unauthorized use of any
+              property of Serene Dental Aesthetics and is protected by applicable intellectual property laws. The
+              "Serene Dental Aesthetics" name, logo, and branding are our trademarks. Unauthorized use of any
               content is strictly prohibited.
             </p>
           </section>
@@ -137,7 +136,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-primary mb-4">10. Limitation of Liability</h2>
             <p className="text-slate-600 leading-relaxed">
-              To the fullest extent permitted by law, My Dental Home and Dr. Faraz Sadiq shall not be
+              To the fullest extent permitted by law, Serene Dental Aesthetics shall not be
               liable for any indirect, incidental, or consequential damages arising from the use of our
               website or services. Our total liability for any claim shall not exceed the amount paid by
               you for the specific service in question. This limitation does not apply to cases of
@@ -178,9 +177,9 @@ export default function TermsOfService() {
               If you have questions about these Terms of Service, please contact us:
             </p>
             <div className="bg-bg-light rounded-2xl p-6 space-y-2">
-              <p className="font-bold text-primary">My Dental Home by Dr. Faraz Sadiq</p>
-              <p className="text-slate-600">120/A, Commercial Area Sector C, Bahria Town, Lahore, 53720</p>
-              <p className="text-slate-600">Phone: <a href="tel:03278149889" className="text-accent hover:underline">0327 8149889</a></p>
+              <p className="font-bold text-primary">Serene Dental Aesthetics</p>
+              <p className="text-slate-600">Falcon Down Town CS-38, Phase 1 Fazaia Housing Society, Lahore</p>
+              <p className="text-slate-600">Phone: <a href="tel:03302737363" className="text-accent hover:underline">0330 2737363</a></p>
             </div>
           </section>
 

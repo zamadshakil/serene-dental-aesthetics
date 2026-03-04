@@ -68,16 +68,16 @@ export default function Navbar() {
               else window.scrollTo({ top: 0, behavior: 'smooth' })
             }}
             className="flex items-center gap-2 sm:gap-3"
-            aria-label="My Dental Home — go to homepage"
+            aria-label="Serene Dental Aesthetics — go to homepage"
           >
             <img
-              src="/images/My Dental Home - Logo.jpg"
-              alt="My Dental Home logo"
+              src="/images/Serene Dental Aesthetics.jpg"
+              alt="Serene Dental Aesthetics logo"
               className="h-10 sm:h-12 w-auto rounded-lg"
             />
             <div className="flex flex-col">
-              <span className="text-lg sm:text-xl font-bold tracking-tight text-primary uppercase">My Dental Home</span>
-              <span className="text-[9px] sm:text-[10px] tracking-[0.2em] text-accent font-semibold uppercase">Dr. Faraz Sadiq</span>
+              <span className="text-lg sm:text-xl font-bold tracking-tight text-primary uppercase">Serene Dental</span>
+              <span className="text-[9px] sm:text-[10px] tracking-[0.2em] text-accent font-semibold uppercase">Aesthetics</span>
             </div>
           </a>
 
@@ -94,11 +94,11 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="tel:03278149889"
+              href="tel:03302737363"
               className="bg-primary text-white px-5 lg:px-6 py-2.5 rounded-full text-sm font-bold flex items-center gap-2 hover:bg-primary/90 transition-all shadow-lg shadow-primary/20"
             >
               <Phone size={14} aria-hidden="true" />
-              0327 8149889
+              0330 2737363
             </a>
           </div>
 
@@ -154,12 +154,12 @@ export default function Navbar() {
                 ))}
                 <div className="pt-2">
                   <a
-                    href="tel:03278149889"
+                    href="tel:03302737363"
                     role="menuitem"
                     className="bg-primary text-white px-6 py-3.5 rounded-xl text-base font-bold flex items-center justify-center gap-2 w-full active:scale-[0.98] transition-transform"
                   >
                     <Phone size={16} aria-hidden="true" />
-                    Call 0327 8149889
+                    Call 0330 2737363
                   </a>
                 </div>
               </div>

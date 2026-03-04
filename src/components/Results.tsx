@@ -34,24 +34,24 @@ export default function Results() {
           <div className="text-left">
             <h2 id="results-heading" className="text-2xl sm:text-4xl font-black mb-2 sm:mb-4">Real Patients, Real Transformations</h2>
             <p className="text-slate-300 max-w-xl text-sm sm:text-lg">
-              Discover the life-changing smile makeovers we've crafted for our valued patients at My Dental Home.
+              Discover the life-changing smile makeovers we've crafted for our valued patients at Serene Dental Aesthetics.
             </p>
           </div>
           <div className="flex gap-3 sm:gap-4">
             <a
-              href="https://www.instagram.com/drfarazsadiq/"
+              href="https://www.instagram.com/serenedentalandaesthetics/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Follow Dr. Faraz Sadiq on Instagram (opens in new tab)"
+              aria-label="Follow Serene Dental Aesthetics on Instagram (opens in new tab)"
               className="w-11 h-11 sm:w-12 sm:h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-primary active:scale-95 transition-all"
             >
               <Instagram size={20} aria-hidden="true" />
             </a>
             <a
-              href="https://www.facebook.com/p/My-Dental-Home-61572385924724/"
+              href="https://www.facebook.com/serenedentalaesthetics/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Visit My Dental Home on Facebook (opens in new tab)"
+              aria-label="Visit Serene Dental Aesthetics on Facebook (opens in new tab)"
               className="w-11 h-11 sm:w-12 sm:h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-primary active:scale-95 transition-all"
             >
               <Facebook size={20} aria-hidden="true" />
@@ -73,7 +73,7 @@ export default function Results() {
               {/* Result image */}
               <img
                 src={item.image}
-                alt={`${item.title} — before and after result at My Dental Home`}
+                alt={`${item.title} — before and after result at Serene Dental Aesthetics`}
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />

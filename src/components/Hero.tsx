@@ -3,7 +3,7 @@ import { ArrowRight, Phone, Star } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-white py-10 sm:py-16 lg:py-24" aria-label="Welcome to My Dental Home">
+    <section className="relative overflow-hidden bg-white py-10 sm:py-16 lg:py-24" aria-label="Welcome to Serene Dental Aesthetics">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Text Content */}
@@ -15,7 +15,7 @@ export default function Hero() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/5 text-primary text-[11px] sm:text-xs font-bold uppercase tracking-wider mb-4 sm:mb-6">
               <span className="w-2 h-2 rounded-full bg-accent animate-pulse" aria-hidden="true" />
-              Now Accepting New Patients in Bahria Town, Lahore
+              Now Accepting New Patients in Fazaia Housing Society, Lahore
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-7xl font-black text-primary leading-[1.1] mb-4 sm:mb-6">
@@ -23,7 +23,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 mb-6 sm:mb-10 leading-relaxed max-w-xl">
-              Where luxury meets clinical excellence. Bespoke treatments — from dental implants to Hollywood smiles — using state-of-the-art technology by Dr. Faraz Sadiq.
+              Where luxury meets clinical excellence. Bespoke treatments — from dental implants to Hollywood smiles — using state-of-the-art technology at Serene Dental Aesthetics.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -40,11 +40,11 @@ export default function Hero() {
               <motion.a
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                href="tel:03278149889"
+                href="tel:03302737363"
                 className="border-2 border-slate-200 text-primary px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl font-bold flex items-center justify-center gap-3 hover:bg-slate-50 transition-all text-sm sm:text-base"
               >
                 <Phone size={18} className="text-accent" aria-hidden="true" />
-                Call 0327 8149889
+                Call 0330 2737363
               </motion.a>
             </div>
 
@@ -65,7 +65,7 @@ export default function Hero() {
                     <Star key={i} size={16} fill="#c5a059" strokeWidth={0} aria-hidden="true" />
                   ))}
                 </div>
-                <p className="text-xs sm:text-sm font-medium text-slate-500">Trusted by 500+ happy patients</p>
+                <p className="text-xs sm:text-sm font-medium text-slate-500">Trusted by 250+ happy patients</p>
               </div>
             </div>
           </motion.div>
@@ -84,7 +84,7 @@ export default function Hero() {
               {/* Background image */}
               <img
                 src="/images/Clinic.jpg"
-                alt="My Dental Home — premium dental clinic interior in Bahria Town, Lahore"
+                alt="Serene Dental Aesthetics — premium dental clinic interior in Fazaia Housing Society, Lahore"
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="eager"
                 fetchPriority="high"
@@ -100,8 +100,8 @@ export default function Hero() {
                     <line x1="12" y1="17" x2="12" y2="22" />
                   </svg>
                 </div>
-                <h3 className="text-white text-lg sm:text-2xl md:text-3xl font-black tracking-tight mb-1 drop-shadow-lg">MY DENTAL HOME</h3>
-                <p className="text-accent text-[10px] sm:text-xs md:text-sm font-semibold tracking-widest uppercase mb-2 sm:mb-3 md:mb-4 drop-shadow-md">Premium Care</p>
+                <h3 className="text-white text-lg sm:text-2xl md:text-3xl font-black tracking-tight mb-1 drop-shadow-lg">SERENE DENTAL</h3>
+                <p className="text-accent text-[10px] sm:text-xs md:text-sm font-semibold tracking-widest uppercase mb-2 sm:mb-3 md:mb-4 drop-shadow-md">Aesthetics</p>
                 <div className="w-10 sm:w-12 h-px bg-accent/60 mb-2 sm:mb-3 md:mb-4" aria-hidden="true" />
                 <p className="text-white text-[10px] sm:text-xs md:text-sm max-w-xs font-medium drop-shadow-md hidden sm:block">Precision dentistry meets personalized luxury — your comfort is our commitment</p>
               </div>
@@ -109,7 +109,7 @@ export default function Hero() {
               {/* Glass overlay at bottom */}
               <div className="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 glass-effect p-3 sm:p-4 md:p-6 rounded-xl sm:rounded-2xl border border-white/20 z-20">
                 <p className="text-primary font-bold text-xs sm:text-sm md:text-base">Premium Clinic Facility</p>
-                <p className="text-slate-600 text-[10px] sm:text-xs md:text-sm">120/A, Commercial Area Sector C, Bahria Town, Lahore</p>
+                <p className="text-slate-600 text-[10px] sm:text-xs md:text-sm">Falcon Down Town CS-38, Phase 1 Fazaia Housing Society, Lahore</p>
               </div>
             </div>
           </motion.div>

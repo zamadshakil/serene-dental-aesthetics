@@ -1,17 +1,16 @@
-import { Instagram, Facebook, Linkedin } from 'lucide-react'
+import { Instagram, Facebook } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const quickLinks = [
   { label: 'Our Services', href: '#services' },
   { label: 'Before & After', href: '#results' },
-  { label: 'About Dr. Sadiq', href: '#about' },
+  { label: 'Why Choose Us', href: '#about' },
   { label: 'Contact Us', href: '#contact' },
 ]
 
 const socials = [
-  { icon: <Instagram size={18} />, href: 'https://www.instagram.com/drfarazsadiq/', label: 'Follow us on Instagram' },
-  { icon: <Facebook size={18} />, href: 'https://www.facebook.com/p/My-Dental-Home-61572385924724/', label: 'Visit us on Facebook' },
-  { icon: <Linkedin size={18} />, href: 'https://pk.linkedin.com/in/dr-faraz-sadiq-4a3b69263', label: 'Connect on LinkedIn' },
+  { icon: <Instagram size={18} />, href: 'https://www.instagram.com/serenedentalandaesthetics/?hl=en', label: 'Follow us on Instagram' },
+  { icon: <Facebook size={18} />, href: 'https://www.facebook.com/serenedentalaesthetics/', label: 'Visit us on Facebook' },
 ]
 
 export default function Footer() {
@@ -23,13 +22,13 @@ export default function Footer() {
           <div className="sm:col-span-2">
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
               <img
-                src="/images/My Dental Home - Logo.jpg"
-                alt="My Dental Home logo"
+                src="/images/Serene Dental Aesthetics.jpg"
+                alt="Serene Dental Aesthetics logo"
                 className="h-10 sm:h-12 w-auto rounded-lg"
               />
               <div className="flex flex-col">
-                <span className="text-lg sm:text-xl font-bold tracking-tight text-primary uppercase">My Dental Home</span>
-                <span className="text-[9px] sm:text-[10px] tracking-[0.2em] text-accent font-semibold uppercase">Dr. Faraz Sadiq</span>
+                <span className="text-lg sm:text-xl font-bold tracking-tight text-primary uppercase">Serene Dental</span>
+                <span className="text-[9px] sm:text-[10px] tracking-[0.2em] text-accent font-semibold uppercase">Aesthetics</span>
               </div>
             </div>
             <p className="text-slate-500 max-w-sm text-sm sm:text-base leading-relaxed">
@@ -74,13 +73,13 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-slate-100 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4">
           <p className="text-slate-400 text-xs sm:text-sm text-center sm:text-left">
-            &copy; {new Date().getFullYear()} My Dental Home by Dr. Faraz Sadiq. All rights reserved.
+            &copy; {new Date().getFullYear()} Serene Dental Aesthetics. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-6 text-slate-400 text-xs sm:text-sm font-medium">
             <Link to="/privacy-policy" className="hover:text-primary transition-colors py-1">Privacy Policy</Link>
             <Link to="/terms-of-service" className="hover:text-primary transition-colors py-1">Terms of Service</Link>
-            <span className="hidden sm:inline">Bahria Town, Lahore</span>
-            <a href="tel:03278149889" className="hover:text-primary transition-colors py-1">0327 8149889</a>
+            <span className="hidden sm:inline">Fazaia Housing Society, Lahore</span>
+            <a href="tel:03302737363" className="hover:text-primary transition-colors py-1">0330 2737363</a>
           </div>
         </div>
       </div>

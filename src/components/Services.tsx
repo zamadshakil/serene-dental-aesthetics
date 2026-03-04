@@ -157,7 +157,7 @@ export default function Services() {
               {/* Background image */}
               <img
                 src={item.image}
-                alt={`${item.title} treatment at My Dental Home, Lahore`}
+                alt={`${item.title} treatment at Serene Dental Aesthetics, Lahore`}
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />

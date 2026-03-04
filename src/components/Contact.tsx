@@ -14,7 +14,7 @@ export default function Contact() {
         >
           {/* Info */}
           <div className="p-6 sm:p-10 lg:p-12 lg:w-1/2">
-            <h2 id="contact-heading" className="text-2xl sm:text-3xl font-black text-primary mb-2">Visit My Dental Home</h2>
+            <h2 id="contact-heading" className="text-2xl sm:text-3xl font-black text-primary mb-2">Visit Serene Dental Aesthetics</h2>
             <p className="text-slate-500 mb-6 sm:mb-8 text-sm sm:text-base">We'd love to welcome you. Walk-ins & appointments both available.</p>
             <div className="space-y-6 sm:space-y-8">
               <div className="flex items-start gap-3 sm:gap-4">
@@ -23,7 +23,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-primary text-base sm:text-lg">Location</p>
-                  <p className="text-slate-600 text-sm sm:text-base">120/A, Commercial Area Sector C Bahria Town, Lahore, 53720</p>
+                  <p className="text-slate-600 text-sm sm:text-base">Falcon Down Town CS-38, Phase 1 Fazaia Housing Society, Lahore</p>
                 </div>
               </div>
 
@@ -33,7 +33,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-primary text-base sm:text-lg">Direct Line</p>
-                  <a href="tel:03278149889" className="text-slate-600 hover:text-accent transition-colors text-sm sm:text-base font-medium">0327 8149889</a>
+                  <a href="tel:03302737363" className="text-slate-600 hover:text-accent transition-colors text-sm sm:text-base font-medium">0330 2737363</a>
                 </div>
               </div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-primary text-base sm:text-lg">Working Hours</p>
-                  <p className="text-slate-600 text-sm sm:text-base">Mon - Sat: 4:00 PM - 10:00 PM</p>
+                  <p className="text-slate-600 text-sm sm:text-base">Mon - Sat: 4:00 PM - 10:30 PM</p>
                   <p className="text-slate-500 text-xs sm:text-sm italic mt-0.5">Emergency appointments available</p>
                 </div>
               </div>
@@ -51,11 +51,11 @@ export default function Contact() {
 
             {/* Get Directions CTA — great for mobile */}
             <a
-              href="https://www.google.com/maps/dir//My+Dental+Home+by+Dr.Faraz+Sadiq"
+              href="https://www.google.com/maps/place/Serene+Dental+Aesthetics/data=!4m2!3m1!1s0x0:0x8d0a8e1e02301574"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 sm:mt-8 inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-xl font-bold text-sm hover:bg-primary/90 active:scale-[0.98] transition-all"
-              aria-label="Get driving directions to My Dental Home (opens in Google Maps)"
+              aria-label="Get driving directions to Serene Dental Aesthetics (opens in Google Maps)"
             >
               <Navigation size={16} aria-hidden="true" />
               Get Directions
@@ -65,14 +65,14 @@ export default function Contact() {
           {/* Embedded Google Map */}
           <div className="lg:w-1/2 h-64 sm:h-80 lg:h-auto relative bg-slate-100 overflow-hidden lg:min-h-100">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.5!2d74.35!3d31.52!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20d5cdac0a14256c!2sMy%20Dental%20Home%20by%20Dr.Faraz%20Sadiq!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.5!2d74.2306!3d31.3688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190324d2d49c3d%3A0x8d0a8e1e02301574!2sSerene%20Dental%20Aesthetics!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="My Dental Home location on Google Maps — Bahria Town, Lahore"
+              title="Serene Dental Aesthetics location on Google Maps — Fazaia Housing Society, Lahore"
               className="absolute inset-0 w-full h-full"
             />
           </div>

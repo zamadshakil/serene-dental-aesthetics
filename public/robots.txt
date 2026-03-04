@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /src/
 
-Sitemap: https://mydentalhome.pk/sitemap.xml
+Sitemap: https://serenedentalclinic.zamdev.me/sitemap.xml
