@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="sm:col-span-2">
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
               <img
-                src="/images/Serene Dental Aesthetics.jpg"
+                src="/images/Serene Dental Aesthetics.png"
                 alt="Serene Dental Aesthetics logo"
                 className="h-10 sm:h-12 w-auto rounded-lg"
               />

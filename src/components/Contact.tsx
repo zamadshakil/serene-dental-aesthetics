@@ -43,7 +43,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-primary text-base sm:text-lg">Working Hours</p>
-                  <p className="text-slate-600 text-sm sm:text-base">Mon - Sat: 4:00 PM - 10:30 PM</p>
+                  <p className="text-slate-600 text-sm sm:text-base">Mon - Sat: 3:00 PM - 9:00 PM</p>
                   <p className="text-slate-500 text-xs sm:text-sm italic mt-0.5">Emergency appointments available</p>
                 </div>
               </div>

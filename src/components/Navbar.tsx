@@ -71,7 +71,7 @@ export default function Navbar() {
             aria-label="Serene Dental Aesthetics — go to homepage"
           >
             <img
-              src="/images/Serene Dental Aesthetics.jpg"
+              src="/images/Serene Dental Aesthetics.png"
               alt="Serene Dental Aesthetics logo"
               className="h-10 sm:h-12 w-auto rounded-lg"
             />
